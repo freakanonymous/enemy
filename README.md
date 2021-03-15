@@ -9,8 +9,9 @@
 * custom botkiller strings for memory scanning
 * 1s sleep on botkill
 * custom passlist for ssh
+* custom tor cnc for onion that broadcasts loader server
 
 # TODO 
 + lateral movement accross current ip range
 # I ASSUME NO RESPONSIBILITY FOR ANY DAMAGES CAUSED BY THIS PROGRAM, SOURCE CODE, OR ASSOCIATED FILES POSTED. 
-# THIS IS POSTED UNDER CREATIVE COMMONS LICENSE AND IS ART.
+# THIS IS POSTED UNDER APACHE LICENSE AND IS ALSO CONSIDERED ART.
