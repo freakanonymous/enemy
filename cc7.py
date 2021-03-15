@@ -72,6 +72,7 @@ if get_arch == True:
     run("for f in *.tar.bz2; do tar -xvf \"$f\"; done")
     run("apt install docker.io")
     run("yum install docker")
+    run("docker pull illuspas/xcgo")
     print("Cross Compilers Downloaded... NOW DOWNLOADING STATIC LIBRARIES FOR SSH")
     run("wget http://pkg.musl.cc/zlib/armv5l-linux-musleabihf/lib/libz.a -O libzarm5.a")
     run("wget http://pkg.musl.cc/libssh2/armv5l-linux-musleabihf/lib/libssh2.a -O ssharm5.a")
