@@ -1,0 +1,2 @@
+# enemy
+ssh selfrep net
