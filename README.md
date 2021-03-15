@@ -11,6 +11,17 @@
 * custom passlist for ssh
 * custom tor cnc for onion that broadcasts loader server
 
+# EXPLOITS
+
+* liferay
+* sonicwall
+* huawei (not working)
+
+# SPECIAL METHODS
+
+* blacknurse
+* DNS request flood (with random dns request id per packet)
+
 # TODO 
 + lateral movement accross current ip range
 # I ASSUME NO RESPONSIBILITY FOR ANY DAMAGES CAUSED BY THIS PROGRAM, SOURCE CODE, OR ASSOCIATED FILES POSTED. 
